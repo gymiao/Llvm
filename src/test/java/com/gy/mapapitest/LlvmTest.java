@@ -9,6 +9,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LlvmTest {
+
+    @Test
+    public void newTest() throws IOException {
+        Response response = NvidiaApiService.query("给一些夏天午睡的建议");
+        String string = response.body().string();
+        System.out.println(ExtractContent.extract(string));
+    }
+
     @Test
     public void testGetLocation() {
         List<String> querys = new ArrayList<>();
