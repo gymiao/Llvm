@@ -1,0 +1,10 @@
+baidu:
+  api:
+    key: "uh6LEw7uiiAq56s9MBEfyTEdGKffmd3J"
+
+
+
+llvm:
+  ak: "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"
+server:
+  port: 8081
