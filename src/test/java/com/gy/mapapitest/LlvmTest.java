@@ -1,7 +1,7 @@
 package com.gy.mapapitest;
 
-import com.gy.mapapitest.entity.ExtractContent;
-import com.gy.mapapitest.entity.NvidiaApiService;
+import com.gy.mapapitest.service.ExtractContent;
+import com.gy.mapapitest.service.NvidiaApiService;
 import okhttp3.Response;
 import org.junit.jupiter.api.Test;
 import java.io.IOException;
